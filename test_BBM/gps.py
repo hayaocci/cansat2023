@@ -5,7 +5,7 @@ import numpy as np
 import traceback
 
 RX = 16
-pi = pigpio.pi()
+pi = pigpio.pi() #GPIOにアクセスするためのインスタンスを作成
 
 ELLIPSOID_GRS80 = 1  # GRS80
 ELLIPSOID_WGS84 = 2  # WGS84
